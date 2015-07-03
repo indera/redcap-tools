@@ -1,0 +1,114 @@
+{
+"comment": "This JSON file stores an example of configuration for creating longitudinal REDCap projects",
+
+"settings": {
+   "days_offset": 5,
+   "increment_offset": 5,
+
+   "events_list" : {
+      "1": {
+         "name": "Event 001",
+         "forms": [
+            "z1_form_checklist",
+            "a1_subject_demographics",
+            "a2_informant_demographics",
+            "a3_subject_family_history",
+            "a4_subject_medications",
+            "a5_subject_health_history",
+            "b1_evaluation_form_physical",
+            "b2_evaluation_form_his_and_cvd",
+            "b3_evaluation_form_updrs",
+            "b4_global_staging_cdr_standard_and_supplemental",
+            "b5_behavioral_assessment_npiq",
+            "b5s_behavioral_assessment_npiq",
+            "b6_behavioral_assessment_gds",
+            "b6s_behavioral_assessment_gds",
+            "b7_functional_assessment_faq",
+            "b7s_functional_assessment_faq",
+            "b8_evaluation_physical_neurological_exam_findings",
+            "b9_clinician_judgment_of_symptoms",
+            "c1_mmse_and_neuropsychological_battery",
+            "c1s_mmse_and_neuropsychological_battery",
+            "d1_clinician_diagnosis_cognitive_status_dementia",
+            "e1_imaging_labs"
+         ]
+      },
+      "2": {
+         "name": "Event 002",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "3": {
+         "name": "Event 003",
+         "forms": ["mfvp_m2_physical_self_maintenance_scale_psms"]
+      },
+      "4": {
+         "name": "Event 004",
+         "forms": ["mfvp_m3_self_evaluation_questionnaire"]
+      },
+      "5":  {
+         "name": "Event 005",
+         "forms": ["mfvp_m4_modified_cdr_rating"]
+      },
+      "6":  {
+         "name": "Event 006",
+         "forms": ["mfvp_m5_adcs_mci_activities_of_daily_living_invent"]
+      },
+      "7":  {
+         "name": "Event 007",
+         "forms": ["mfvp_m6_mental_health_screen"]
+      },
+      "8":  {
+         "name": "Event 008",
+         "forms": ["mfvp_m7_cortical_symptom_checklist"]
+      },
+      "9":  {
+         "name": "Event 009",
+         "forms": ["mfvp_m8a_cognitive_function_index_participant"]
+      },
+      "10": {
+         "name": "Event 010",
+         "forms": ["mfvp_m8b_cognitive_function_index_study_partner"]
+      },
+      "11": {
+         "name": "Event 011",
+         "forms": ["mfvp_m9_neuropsychological_battery"]
+      },
+      "12": {
+         "name": "Event 012",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "13": {
+         "name": "Event 013",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "14": {
+         "name": "Event 014",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "15": {
+         "name": "Event 015",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "16": {
+         "name": "Event 016",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "17": {
+         "name": "Event 017",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "18": {
+         "name": "Event 018",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "19": {
+         "name": "Event 019",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "20": {
+         "name": "Event 020",
+         "forms": ["mfvp_m1_apathy_scale"]
+      }
+   }
+}
+}

@@ -1,0 +1,52 @@
+# This file can be copied to Makefile.ini so it can be `visible` to the Makefile
+
+# Did you change the port?
+redcap_url = http://localhost:8080/redcap
+
+# Did you upgrade to 6.0.5 from 5.7.4?
+redcap_version = 6.0.5
+
+# If I want my own id :)
+project_id = 12
+
+# ... and of course the token
+api_token = why_not_use_the_same_in_every_sandbox?
+
+# Miami forms
+m1 = mfvp_m1_apathy_scale
+m2 = mfvp_m2_physical_self_maintenance_scale_psms
+m3 = mfvp_m3_self_evaluation_questionnaire
+m4 = mfvp_m4_modified_cdr_rating
+m5 = mfvp_m5_adcs_mci_activities_of_daily_living_invent
+m6 = mfvp_m6_mental_health_screen
+m7 = mfvp_m7_cortical_symptom_checklist
+m8a= mfvp_m8a_cognitive_function_index_participant
+m8b= mfvp_m8b_cognitive_function_index_study_partner
+m9 = mfvp_m9_neuropsychological_battery 
+
+
+
+
+# Version 2 form names
+a1    = a1_subject_demographics
+a2    = a2_informant_demographics
+a3    = a3_subject_family_history
+a4    = a4_subject_medications
+a5    = a5_subject_health_history
+b1    = b1_evaluation_form_physical
+b2    = b2_evaluation_form_his_and_cvd
+b3    = b3_evaluation_form_updrs
+b4    = b4_global_staging_cdr_standard_and_supplemental
+b5    = b5_behavioral_assessment_npiq
+b5s   = b5s_behavioral_assessment_npiq
+b6    = b6_behavioral_assessment_gds
+b6s   = b6s_behavioral_assessment_gds
+b7    = b7_functional_assessment_faq
+b7s   = b7s_functional_assessment_faq
+b8    = b8_evaluation_physical_neurological_exam_findings
+b9    = b9_clinician_judgment_of_symptoms
+c1    = c1_mmse_and_neuropsychological_battery
+c1s   = c1s_mmse_and_neuropsychological_battery
+d1    = d1_clinician_diagnosis_cognitive_status_dementia
+e1    = e1_imaging_labs
+z1    = z1_form_checklist

@@ -1,0 +1,107 @@
+{
+"comment": "This JSON file stores an example of configuration for creating longitudinal REDCap projects",
+
+"settings": {
+   "days_offset": 5,
+   "increment_offset": 5,
+
+   "events_list" : {
+      "1": {
+         "name": "Event 001",
+         "forms": [ 
+            "ivp_z1_form_checklist",
+            "ivp_a1_subject_demographics",
+            "ivp_a2_co_participant_demographics",
+            "ivp_a3_subject_family_history",
+            "ivp_a4_subject_medications",
+            "ivp_a5_subject_health_history",
+            "ivp_b1_evaluation_form_physical",
+            "ivp_b4_global_staging_cdr_standard_and_supplemental",
+            "ivp_b5_behavioral_assessment_npiq",
+            "ivp_b6_behavioral_assessment_gds",
+            "ivp_b7_functional_assessment_faq",
+            "ivp_b8_evaluation_neurological_exam_findings",
+            "ivp_b9_clinician_judgment_of_symptoms",
+            "ivp_c2_neuropsychological_battery_scores",
+            "ivp_d1_clinician_diagnosis",
+            "ivp_d2_clinician_assessed_medical_conditions"]
+      },
+      "2": {
+         "name": "Event 002",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "3": {
+         "name": "Event 003",
+         "forms": ["mfvp_m2_physical_self_maintenance_scale_psms"]
+      },
+      "4": {
+         "name": "Event 004",
+         "forms": ["mfvp_m3_self_evaluation_questionnaire"]
+      },
+      "5":  {
+         "name": "Event 005",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "6":  {
+         "name": "Event 006",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "7":  {
+         "name": "Event 007",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "8":  {
+         "name": "Event 008",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "9":  {
+         "name": "Event 009",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "10": {
+         "name": "Event 010",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "11": {
+         "name": "Event 011",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "12": {
+         "name": "Event 012",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "13": {
+         "name": "Event 013",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "14": {
+         "name": "Event 014",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "15": {
+         "name": "Event 015",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "16": {
+         "name": "Event 016",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "17": {
+         "name": "Event 017",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "18": {
+         "name": "Event 018",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "19": {
+         "name": "Event 019",
+         "forms": ["mfvp_m1_apathy_scale"]
+      },
+      "20": {
+         "name": "Event 020",
+         "forms": ["mfvp_m1_apathy_scale"]
+      }
+   }
+}
+}
