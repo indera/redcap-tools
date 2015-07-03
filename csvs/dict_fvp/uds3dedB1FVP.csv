@@ -1,0 +1,12 @@
+Item #,Data Order,Data Element,Form Version,Packet,Form ID,UDS Question,Data Type,Data Length,Column 1,Column 2,RANGE1,RANGE2,MISS1,MISS2,MISS3,MISS4,MISS5,MISS6,VAL1,VAL2,VAL3,VAL4,VAL5,VAL6,VAL7,VAL8,VAL9,VAL10,VAL11,VAL12,VAL1D,VAL2D,VAL3D,VAL4D,VAL5D,VAL6D,VAL7D,VAL8D,VAL9D,VAL10D,VAL11D,VAL12D,BLANKS1,BLANKS2,BLANKS3,BLANKS4,BLANKS5,SKIPS1,SKIPS2
+1,1,HEIGHT,3,F,B1,Subject height (inches):,Num,4,45,48,36,96,88.8,.,.,.,.,.,.,88.8,.,.,.,.,.,.,.,.,.,.,,Not assessed,,,,,,,,,,,,,,,,,
+2,2,WEIGHT,3,F,B1,Subject weight (lbs),Num,3,50,52,50,400,888,.,.,.,.,.,.,888,.,.,.,.,.,.,.,.,.,.,,Not assessed,,,,,,,,,,,,,,,,,
+3a,3,BPSYS,3,F,B1,Subject blood pressure (sitting),Num,3,54,56,70,230,888,.,.,.,.,.,.,888,.,.,.,.,.,.,.,.,.,.,,Not assessed,,,,,,,,,,,,,,,,,
+3b,4,BPDIAS,3,F,B1,"Subject blood pressure (sitting), diastolic",Num,3,58,60,30,140,888,.,.,.,.,.,.,888,.,.,.,.,.,.,.,.,.,.,,Not assessed,,,,,,,,,,,,,,,,,
+4,5,HRATE,3,F,B1,Subject resting heart rate (pulse),Num,3,62,64,33,160,888,.,.,.,.,.,.,888,.,.,.,.,.,.,.,.,.,.,,Not assessed,,,,,,,,,,,,,,,,,
+5,6,VISION,3,F,B1,"Without corrective lenses, is the subject's vision functionally normal?",Num,1,66,66,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,,,,,,,
+6,7,VISCORR,3,F,B1,Does the subject usually wear corrective lenses?,Num,1,68,68,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,,,,,,"If Question 5 VISION = 0 (No), then skip to Question 7","If Question 5 VISION = 9 (Unknown), then  then skip to Question 7"
+6a,8,VISWCORR,3,F,B1,"If yes, is the subject's vision functionally normal with corrective lenses?",Num,1,70,70,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,Blank if Question 6 VISCORR ne 1 (Yes),,,,,,
+7,9,HEARING,3,F,B1,"Without a hearing aid(s), is the subject's hearing functionally normal?",Num,1,72,72,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,,,,,,,
+8,10,HEARAID,3,F,B1,Does the subject usually wear a hearing aid(s)?,Num,1,74,74,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,,,,,,"If Question 7 HEARING = 0 (No), then end form here","If Question 7 HEARING = 9 (Unknown), then end form here"
+8a,11,HEARWAID,3,F,B1,"If yes, is the subject's hearing functionally normal with a hearing aid(s)?",Num,1,76,76,0,1,9,.,.,.,.,.,0,1,9,.,.,.,.,.,.,.,.,.,No,Yes,Unknown,,,,,,,,,,Blank if Question 8 HEARAID ne 1 (Yes),,,,,,
